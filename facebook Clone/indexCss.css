@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Snippet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+.container {
+    background-color: white;
+    width: 350px;
+    padding-right: 30px; 
+    padding: 10px;
+    box-shadow:  0.3em 0.3em 1em rgba(0,0,0,0.3);
+    padding-right: 20px;
+    border-radius: 5px;
+    position: absolute;
+    right: 300px;
+    top: 130px;
+}
+input { 
+   
+    border: solid 1px #ecf0f1;
+    box-shadow: 0px 0px 0px 0px lightgray;
+    width: 100%;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    padding-right: 0%;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    color: black;
+}
+
+input::-webkit-input-placeholder {
+    box-shadow: 0px 0px 0px 0px lightgray;
+    width: 100%;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 20px;
+    padding-right: 20px;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    color: rgb(180, 180, 180);
+    
+}
+
+input:active {
+    border: none;
+
+
+}
+h6 {
+    position: absolute;
+    top: 1px;
+    left: 2px; 
+}
+
+
+h2 {
+    font-family: 'Indie Flower', cursive;
+    left: 40px;
+    top:  250px; 
+    position: absolute;
+}
+body {
+    background-color: #F0F2F5;
+}
+img {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#wrapper2 {
+    width: 100%;
+    background-color: #1877f2;
+    color: white;
+    border-radius: 10px;
+}
+a {
+    margin-top: 10px;
+    font-family: 'Snippet', sans-serif;
+    text-decoration: none;
+    color: #1877f2;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+#wrapper2:hover {
+    background-color: rgba(0, 0, 255, 0.562);
+}
+
+hr {
+    align-content: center;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-left: 30px;
+    border-style: inset;
+    border-width: 1px;
+  }
+
+  button {
+    border: none;
+    color: white;
+    border-radius: 5px;
+     background-color: #42b72a;
+     padding: 15px;
+     font-size: 15px;
+     margin-left: 100px; 
+     flex-flow: column-reverse;
+  }
+
+  button:hover {
+      background-color: #359c21;
+  }
+
+  button:active{
+      border: none;
+      opacity: 50%;
+  }
+
+  button:focus{
+    opacity: 50%;
+}
+
+#laker {
+    color: #1877f2;
+    text-decoration: none;
+    position: absolute;
+    top: 350px;
+}
